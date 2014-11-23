@@ -11,3 +11,6 @@ class RobotH
   end
 end
 
+robot = RobotH.new("Jake", "Wengroff")
+robot.say_full_name
+

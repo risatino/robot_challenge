@@ -6,3 +6,7 @@ class RobotD
   end
 end
 
+RobotD.new("Emily", "Post")
+
+
+

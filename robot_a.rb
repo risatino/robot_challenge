@@ -6,4 +6,6 @@ class RobotA
   end
 end
 
+RobotA.new.dry_my_hands
+
 

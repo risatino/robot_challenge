@@ -3,9 +3,11 @@
 module CoolRobots
   class RobotF
     def laugh
-      `say hahahahahah!`
+      `say ha ha ha ha hah!`
     end
   end
 end
+
+CoolRobots::RobotF.new.laugh
 
 

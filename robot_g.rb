@@ -6,7 +6,7 @@ require 'open_weather'
 module CoolRobots
   class RobotG
     def get_time
-      `say "The time now is #{Time.now.strftime('%A, %B %d %Y %l:%M %p')}"`
+      # `say "The time now is #{Time.now.strftime('%A, %B %d %Y %l:%M %p')}"`
     end
 
     def get_weather(city)
@@ -15,4 +15,10 @@ module CoolRobots
     end
   end
 end
+
+robot = CoolRobots::RobotG.new.get_time
+puts robot.class
+robot.get_weather("Chicago, IL")
+
+
 

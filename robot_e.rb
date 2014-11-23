@@ -5,3 +5,5 @@ class RobotE
     `say "Robot E Created!"`
   end
 end
+
+RobotE.create

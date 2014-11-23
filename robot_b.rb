@@ -8,3 +8,5 @@ class RobotB
     `say "The price of #{symbol} is #{StockQuote::Stock.quote(symbol).bid_realtime} dollars"`
   end
 end
+
+RobotB.new.get_stock_price("KO")
