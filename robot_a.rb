@@ -6,4 +6,5 @@ class RobotA
   end
 end
 
+# solution
 
