@@ -5,3 +5,6 @@ class RobotE
     `say "Robot E Created!"`
   end
 end
+
+# solution
+
