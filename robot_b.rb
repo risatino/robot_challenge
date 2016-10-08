@@ -5,9 +5,12 @@ require 'stock_quote'
 
 class RobotB
   def get_stock_price(symbol)
-    `say "The price of #{symbol} is #{StockQuote::Stock.quote(symbol).bid_realtime} dollars"`
+    `say "The price of #{symbol} is #{StockQuote::Stock.quote(symbol).bid} dollars"`
   end
 end
 
 # solution
+robolady = RobotB.new
+robolady = robolady.get_stock_price("symbol")
 
+# I couldn't install the stock_quote gem for some reason, but I assume if I were able to, it would look something like what I wrote above.

@@ -2,6 +2,7 @@
 
 def talk
   `say "How's it going, I hope all is well!"`
+  `say "why yes, thank you for asking."`
 end
 
 # Solution:

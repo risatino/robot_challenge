@@ -18,3 +18,9 @@ end
 
 # solution
 
+robosky = CoolRobots::RobotG.new
+
+robosky.get_time
+robosky.get_weather("charlston")
+
+# My weather didn't work, I assume I need an API key or token and not sure I understand it enough to use or to push up to github.

@@ -8,3 +8,4 @@ end
 
 # solution
 
+roboelektro = RobotE.create

@@ -8,3 +8,4 @@ end
 
 # solution
 
+robodonuts = RobotD.new("J", "Dilla")

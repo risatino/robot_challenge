@@ -13,3 +13,5 @@ end
 
 # solution
 
+roboname = RobotH.new("Bel Biv", "DeVoe")
+roboname.say_full_name

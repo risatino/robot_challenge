@@ -10,3 +10,5 @@ end
 
 # solution
 
+robogiggler = CoolRobots::RobotF.new
+robogiggler.laugh
